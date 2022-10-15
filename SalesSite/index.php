@@ -1,4 +1,8 @@
-<?php session_start() ?>
+<?php
+    session_start();
+
+    require "others/database.php";
+?>
 
 <html>
     <head>
@@ -35,7 +39,7 @@
 
         <?php
         // Jeshan: Need to change this
-        if(!empty($_SESSION["id"])){
+        if(empty($_SESSION["id"])){
 echo<<<LOGIN
         <script>
             $(document).ready(function(){

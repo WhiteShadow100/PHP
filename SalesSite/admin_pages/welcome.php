@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-3 m-0 p-0" id="option">
                 <div class="list-group">
-                    <button type="button" class="list-group-item list-group-item-action active" onclick="goto_page('products', this)">Products</button>
+                    <button type="button" class="list-group-item list-group-item-action" onclick="goto_page('products', this)">Products</button>
                     <button type="button" class="list-group-item list-group-item-action" onclick="goto_page('categories', this)">Category</button>
                     <button type="button" class="list-group-item list-group-item-action" onclick="goto_page('sales', this)">Sales</button>
                     <button type="button" class="list-group-item list-group-item-action" onclick="goto_page('sales_history', this)">Sales History</button>
