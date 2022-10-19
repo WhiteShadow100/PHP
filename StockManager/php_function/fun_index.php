@@ -26,7 +26,7 @@
                 <script>
                     $(document).ready(function(){
                         $.ajax({
-                            url: './admin_pages/welcome.php',
+                            url: './main_page/welcome.php',
                             type: 'post',
                             success: function(result)   {
                                 $("#root").html(result);
@@ -43,7 +43,7 @@
 *   assign the level of authority that a user has according to database
 */
 
-    function validate_user(){
+    // function validate_user(){
         
-    }
+    // }
 ?>
